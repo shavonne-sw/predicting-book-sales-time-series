@@ -128,8 +128,6 @@ For _The Alchemist_, the LSTM model delivered the best performance (MAE: 45.16; 
 <br><br>
 
 
-The model performed well due to the relatively stable weekly sales pattern (~500–600 units), allowing it to capture long-term dependencies effectively.
-
 In contrast, LSTM performance for _The Very Hungry Caterpillar_ was weaker (MAE: 288.37; MAPE: 14.33%) due to the more erratic sales patterns from 1,000 to over 3,500 units per week, with strong seasonal spikes (e.g., during holiday periods). These results reinforce the importance of matching model characteristics to the nature of the underlying data.
 
 <br>
