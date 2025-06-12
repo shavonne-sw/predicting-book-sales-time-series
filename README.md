@@ -14,7 +14,7 @@
 
 ## 1. Executive Summary
 
-This project leverages time series analysis to forecast book sales using historical data from Nielsen BookScan, spanning from 2000 to mid-2024. The objective is to model sales patterns and generate accurate forecasts to support small and medium-sized publishers in making data-driven decisions.
+This project leverages time series analysis to forecast book sales using historical data from Nielsen BookScan, spanning from 2000 to 2024. The objective is to model sales patterns and generate accurate forecasts to support small and medium-sized publishers in making data-driven decisions.
 
 By identifying seasonal trends and demand cycles, these forecasts enable more informed reordering, restocking, and reprinting strategies, ultimately improving operational efficiency and profitability.
 
