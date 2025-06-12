@@ -134,7 +134,7 @@ In contrast, LSTM performance for _The Very Hungry Caterpillar_ was weaker (MAE:
 
 ### 🔸 Hybrid Model Evaluation (SARIMA + LSTM)
 
-Hybrid models combining SARIMA and LSTM—whether applied sequentially or blended using weighted averages—did not outperform their standalone components.
+Hybrid models combining SARIMA and LSTM, whether applied sequentially or blended using weighted averages, did not outperform their standalone components.
 
 - Performance gains over SARIMA alone were marginal at best.
 - In all cases, either XGBoost or LSTM alone delivered better accuracy.
@@ -143,15 +143,15 @@ Hybrid models combining SARIMA and LSTM—whether applied sequentially or blende
 
 ### 🔸 Hybrid Model – Weight Adjustment Analysis
 
-- **_Alchemist_**: Weight tuning of the hybrid model showed no meaningful benefit. Even the best combination (100% SARIMA) resulted in an MAE of **140.62**—significantly worse than either LSTM or XGBoost alone.  
-- **_Caterpillar_**: Similarly, no improvement was observed. The best hybrid configuration (100% SARIMA) yielded an MAE of **417.85**, which was still notably inferior to XGBoost (**MAE: 134.97**).
+- _The Alchemist_: Weight tuning of the hybrid model showed no meaningful benefit. Even the best combination (100% SARIMA) resulted in an MAE of 140.62—significantly worse than either LSTM or XGBoost alone.  
+- _The Very Hungry Caterpillar_: Similarly, no improvement was observed. The best hybrid configuration (100% SARIMA) yielded an MAE of 417.85, which was still notably inferior to XGBoost (MAE: 134.97).
 
 <br>
 
 ### 🟢 Model Selection Considerations
 
-- **XGBoost** emerged as the most **reliable and accurate** model overall—especially where sales data exhibited strong volatility or seasonality.
-- **LSTM** performed exceptionally well under **stable demand conditions**, as demonstrated with _Alchemist_.
+- **XGBoost** emerged as the most reliable and accurate model overall—especially where sales data exhibited strong volatility or seasonality.
+- **LSTM** performed exceptionally well under stable demand conditions, as demonstrated with _Alchemist_.
 - **Hybrid models**, while theoretically appealing, did not demonstrate practical benefits within this dataset. Significant fine-tuning would be required for them to be considered viable alternatives.
 
 
